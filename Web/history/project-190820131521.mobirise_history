@@ -34,7 +34,9 @@
     "siteFonts": [],
     "uniqCompNum": 19,
     "versionPublish": "4.10.7",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "file:///D:/GitHub%20Repositories/Jony635.github.io/Web"
   },
   "pages": {
     "index.html": {
@@ -394,7 +396,7 @@
                 "active": false
               },
               {
-                "tags": "Tools",
+                "tags": "Others",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -404,7 +406,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<b>Research: Appveyor<br></b><a href=\"https://jony635.github.io/Automated-Builds-with-Appveyor/\" target=\"_blank\">Web</a>",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Games",
@@ -433,7 +435,7 @@
                 "active": false
               },
               {
-                "tags": "Tools",
+                "tags": "Others",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -459,7 +461,7 @@
                 "active": false
               },
               {
-                "tags": "Tools",
+                "tags": "Others",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -482,7 +484,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<b>Alita Unbreakable Warrior<br></b><a href=\"https://github.com/JellyBitStudios/JellyBitEngine/releases\" target=\"_blank\">Github Repository</a><br><a href=\"https://alitaunbreakablewarrior.github.io/\" target=\"_blank\">Web</a><br>",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Games",
