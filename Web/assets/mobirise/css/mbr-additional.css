@@ -1440,6 +1440,10 @@ body {
 .cid-rtVYWRZPhj P {
   color: #767676;
 }
+.cid-rtVYWRZPhj .mbr-text,
+.cid-rtVYWRZPhj .mbr-section-btn {
+  text-align: left;
+}
 .cid-rtW0jvAEem {
   padding-top: 30px;
   padding-bottom: 0px;
