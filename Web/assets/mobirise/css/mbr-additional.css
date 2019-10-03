@@ -1484,6 +1484,7 @@ body {
 }
 .cid-rzGsVCv13S H1 {
   text-align: center;
+  color: #616161;
 }
 .cid-rzGsMREEJB {
   padding-top: 0px;
@@ -1602,4 +1603,19 @@ body {
 .cid-rwWTLgEc5C .mbr-text,
 .cid-rwWTLgEc5C .mbr-section-btn {
   text-align: center;
+}
+.cid-rDPLW73CPz {
+  padding-top: 30px;
+  padding-bottom: 45px;
+  background-color: #efefef;
+}
+.cid-rDPLW73CPz P {
+  color: #767676;
+}
+.cid-rDPLW73CPz .mbr-text,
+.cid-rDPLW73CPz .mbr-section-btn {
+  text-align: center;
+}
+.cid-rDPLW73CPz H1 {
+  color: #616161;
 }
