@@ -44,8 +44,7 @@
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "publishType": "local",
-    "publishPath": "@PROJECT_PATH@",
-    "imageResize": true
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -131,7 +130,7 @@
             }
           },
           "_name": "header16",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    FULL WIDTH INTRO\n                </h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Hello, my name is Jonathan and I am a videogame / game engine programmer. <br>I have been programming games, mobile (Android) apps and other tools for about four years.<br><br>My preferred and most practiced languages are <b>C and C++</b>, but I also have developed&nbsp; a lot of projects with <b>C#</b> (using Unity3D) and quite a few ones in&nbsp;<b>Javascript + JSX</b> (Web development), <b>Java</b> (Mobile apps), <b>Lua </b>and&nbsp;<b>Python</b>.<br><br>I have experience with <b>Git Repositories</b> (GitHub and BitBucket), <b>Visual Studio</b> (+Code), <b>Android Studio</b> and Scrum-based methodologies, using tools like <b>Trello</b>,&nbsp;<b>Hack'n'plan </b>or <b>Jira</b>.<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    FULL WIDTH INTRO\n                </h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Hello, my name is Jonathan and I am a videogame / game engine programmer. <br>I have been programming games, mobile (Android) apps and other tools for about four years.<br><br>My preferred and most practiced languages are <b>C and C++</b>, but I also have developed quite a few projects with <b>C#</b> (using Unity3D), <b>Javacript</b> (Web development), <b>Java</b> (Mobile apps) and <b>Python</b>.<br><br>I have experience with <b>Git</b> (GitHub and BitBucket), <b>Visual Studio</b> (+Code), <b>Android Studio</b> and Scrum-based methodologies using tools like <b>Trello</b>,&nbsp;<b>Hack'n'plan </b>or <b>Jira</b>.<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "rtVYWRZPhj",
           "_anchor": "header16-4",
           "_protectedParams": [],
@@ -374,6 +373,19 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/together-1920x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/together-1920x1080-800x450.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Together<br></b><a href=\"https://soft-lunch.github.io/Together/\" target=\"_blank\">Web</a>",
+                "active": true
+              },
+              {
+                "tags": "Games",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/commando-1920x1080.png",
                 "thumb": "@PROJECT_PATH@/assets/images/commando-1920x1080-800x450.png",
                 "alt": "",
@@ -487,19 +499,6 @@
                 "active": false
               },
               {
-                "tags": "Tools",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/pp-122x122.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/pp-122x122-122x122.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "JellyBitEngine<b><br></b><a href=\"https://github.com/JellyBitStudios/JellyBitEngine\" target=\"_blank\" class=\"text-primary\">Web</a>",
-                "active": false
-              },
-              {
                 "tags": "Games",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
@@ -524,32 +523,6 @@
                 "customStyle1": "display-7",
                 "caption": "<b>Kayak<br></b><a href=\"https://github.com/teamrocketo/Kayak/releases\" target=\"_blank\">Github Repository</a><br>",
                 "active": false
-              },
-              {
-                "tags": "Games",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/together-1920x1080.png",
-                "thumb": "@PROJECT_PATH@/assets/images/together-1920x1080-800x450.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<b>Together<br></b><a href=\"https://soft-lunch.github.io/Together/\" target=\"_blank\">Web</a>",
-                "active": false
-              },
-              {
-                "tags": "Tools",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/captura%20de%20pantalla%202020-12-12%20104444-290x187.png",
-                "thumb": "@PROJECT_PATH@/assets/images/captura-de-pantalla-2020-12-12-104444-290x187-290x187.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<b>TFG: How to implement an external mod system in a videogame&nbsp;<br></b><a href=\"https://drive.google.com/file/d/1wh-AUTApWF9JYC8a-HjME36O1-Gc_hbh/view?usp=sharing\" target=\"_blank\" class=\"text-primary\">Web</a>",
-                "active": true
               }
             ]
           }
